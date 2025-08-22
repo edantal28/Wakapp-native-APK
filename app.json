@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WAKAPP",
-    "slug": "wakapp-native",
+    "slug": "wakapp-native-apk",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
