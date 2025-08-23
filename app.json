@@ -1,4 +1,31 @@
 {
-  "name": "WakeMeUpApp",
-  "displayName": "WakeMeUpApp"
+  "expo": {
+    "name": "WAKAPP",
+    "slug": "wakapp-native-apk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["android"],
+    "android": {
+      "package": "com.wakapp.native",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1710d437-a054-405b-8aed-030dccb15c4b"
+      }
+    }
+  }
 }
